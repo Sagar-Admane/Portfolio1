@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 0px;
+}
+
+.testimonal{
+    width: 88%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 44.13px;
+}
+
+.test_head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    h2{
+        font-size: 58.947px;
+        background: -webkit-linear-gradient(0deg, #2E7FB8 25%, #94D138 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.test_info{
+    width: 70%;
+}
+
+.normal{
+    color: #949494;
+    font-size: 16.579px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bold{
+    color: #FFF;
+    font-size: 22.105px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

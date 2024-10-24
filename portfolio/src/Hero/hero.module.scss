@@ -1,0 +1,113 @@
+.eclipse{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 21px;
+}
+
+.title{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Urbanist", sans-serif;
+    gap: 32px;
+    margin: 32px;
+}
+
+.title_heading{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+
+    .a{
+        background: -webkit-linear-gradient(360deg, #31ee2e 46.85%, #3696e0 89.89%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 700;
+    }
+
+    .b{
+        background: -webkit-linear-gradient(360deg, #ee2d2d 20.25%, #c88645 92.14%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 700;
+    }
+}
+
+.title_info{
+    max-width: 769px;
+    width: 100%;
+    height: fit-content;
+
+    p{
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 0.36px;
+        color: rgba(197, 197, 197, 1);
+    }
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+    margin: 19px;
+    justify-content: center;
+    /* background-color: red; */
+    margin-bottom: 30px;
+}
+
+.touch{
+
+    button{
+        padding: 10px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        border-radius: 60px;
+        line-height: normal;
+        width: 195px;
+        border: none;
+        cursor: pointer;
+        height: 64px;
+        transition: 0.3s;
+    }
+
+    button:hover{
+        background-color: transparent;
+        color: #fff;
+        border: 2px solid #fff;
+    }
+
+}
+
+.CV{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 18px;
+    border-radius: 60px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    width: 195px;
+    height: 64px;
+    transition: 0.3s;
+}
